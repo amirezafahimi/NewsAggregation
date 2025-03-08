@@ -1,3 +1,4 @@
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 pluginManagement {
     repositories {
         google {
@@ -21,4 +22,7 @@ dependencyResolutionManagement {
 
 rootProject.name = "NewsAggregation"
 include(":app")
- 
+include(":domain")
+include(":data")
+include(":feature")
+include(":core")
