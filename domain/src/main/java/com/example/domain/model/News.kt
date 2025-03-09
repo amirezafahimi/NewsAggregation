@@ -5,7 +5,7 @@ import kotlinx.parcelize.Parcelize
 
 @Parcelize
 data class Article(
-    val query: String,
+    val query: String = "",
     val author: String,
     val content: String,
     val description: String,

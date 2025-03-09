@@ -16,7 +16,6 @@ fun ArticleDto.toArticle(): Article =
         title = title ?: "",
         url = url ?: "",
         urlToImage = urlToImage ?: "",
-        query = query ?: ""
     )
 
 fun SourceDto.toSource(): Source =

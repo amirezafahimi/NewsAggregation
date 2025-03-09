@@ -30,7 +30,7 @@ internal class SequentialNewsPagingSource(
                             to = to,
                             page = page,
                             pageSize = params.loadSize
-                        ).articles.map { it.copy(query = query).toArticle() }
+                        ).articles.map { it.toArticle().copy(query = query) }
                     }
                 }.awaitAll()
             }

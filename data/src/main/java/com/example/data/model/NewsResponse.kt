@@ -13,7 +13,6 @@ data class NewsResponse(
 )
 
 data class ArticleDto(
-    val query: String?,
     @SerializedName("author")
     val author: String?,
     @SerializedName("content")
