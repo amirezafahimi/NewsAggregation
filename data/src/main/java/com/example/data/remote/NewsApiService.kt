@@ -13,10 +13,13 @@ interface NewsApiService {
 
     @GET("everything")
     suspend fun searchNews(
-        @Query("apiKey") apiKey: String = BuildConfig.NEWS_API_KEY,
         @Query("q") query: String,
+        @Query("from") from: String,
+        @Query("to") to: String,
+        @Query("sortBy") sortBy: String = "publishedAt",
         @Query("page") page: Int,
-        @Query("pageSize") pageSize: Int
+        @Query("pageSize") pageSize: Int = 20,
+        @Query("apiKey") apiKey: String = BuildConfig.NEWS_API_KEY
     ): NewsResponse
 
 
