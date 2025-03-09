@@ -37,7 +37,7 @@ https://newsapi.org/v2/everything?q=microsoft&from=2024-03-08&to=2024-03-09&sort
 This project follows **Clean Architecture** with a multi-layered approach:
 - **Presentation Layer**: Handles UI (Jetpack Compose or XML), ViewModels, and UI state management.
 - **Domain Layer**: Contains use cases and business logic.
-- **Data Layer**: Includes repositories, data sources (API, Database), and models.
+- **Data Layer**: Includes repositories, data sources, and models.
 
 ## Screens
 ### 1. News Screen
