@@ -1,4 +1,4 @@
-package com.example.data.ui
+package com.example.data.di
 
 import com.example.data.BuildConfig
 import com.example.data.remote.NewsApiService
@@ -42,7 +42,7 @@ object NetworkModule {
 
     @Provides
     @Singleton
-    fun provideNewsApi(
+    internal fun provideNewsApi(
         okHttpClient: OkHttpClient
     ) : NewsApiService {
         return Retrofit.Builder()
