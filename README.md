@@ -33,18 +33,6 @@ https://newsapi.org/v2/everything?q={QUERY}&from={YESTERDAY_DATE}&to={TODAY_DATE
 https://newsapi.org/v2/everything?q=microsoft&from=2024-03-08&to=2024-03-09&sortBy=publishedAt&page=1&pageSize=20&apiKey=YOUR_API_KEY
 ```
 
-## Installation
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/yourusername/NewsAggregatorApp.git
-   ```
-2. Open the project in **Android Studio**.
-3. Add your **NewsAPI Key** in the `local.properties` file:
-   ```properties
-   NEWS_API_KEY=your_api_key_here
-   ```
-4. Sync the project and run the app on an emulator or a physical device.
-
 ## Architecture
 This project follows **Clean Architecture** with a multi-layered approach:
 - **Presentation Layer**: Handles UI (Jetpack Compose or XML), ViewModels, and UI state management.
