@@ -1,4 +1,4 @@
-package com.example.domain.mapper
+package com.example.data.mapper
 
 import com.example.data.model.ArticleDto
 import com.example.data.model.SourceDto

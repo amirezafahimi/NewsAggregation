@@ -46,6 +46,7 @@ dependencies {
 
     implementation(projects.core)
     implementation(projects.domain)
+    implementation(projects.data)
     implementation(projects.feature)
 
     implementation(libs.hilt.android)

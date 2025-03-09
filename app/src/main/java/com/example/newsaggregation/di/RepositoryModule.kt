@@ -1,7 +1,7 @@
-package com.example.data.di
+package com.example.newsaggregation.di
 
 import com.example.data.repository.DefaultNewsRepository
-import com.example.data.repository.NewsRepository
+import com.example.domain.repository.NewsRepository
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
